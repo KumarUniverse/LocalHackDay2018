@@ -1,8 +1,28 @@
-#circle {
+#circle { /* the hash is for the id of the circle.*/
       width: 100px;
       height: 100px;
-      -webkit-border-radius: 25px;
-      -moz-border-radius: 25px;
-      border-radius: 25px;
+      border-radius: 50px;
       background: blue;
+      background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+      -webkit-animation: hue 30s infinite linear;
+      margin-top: 160px;
+      margin-left: auto;
+      margin-right: auto;
+      /*transform: translate(60px,0);*/
+}
+
+h1 {
+    font-family: cursive, sans-serif;
+    font-size: 50px;  
+    text-align: center;    
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
     }
+
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+}
