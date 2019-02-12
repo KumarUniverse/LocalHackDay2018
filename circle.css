@@ -1,21 +1,21 @@
-#circle { /* the hash is for the id of the circle.*/
-      width: 100px;
-      height: 100px;
-      border-radius: 50px;
-      background: blue;
-      background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-      -webkit-animation: hue 15s infinite linear;
-      margin-top: 150px;
-      margin-left: auto;
-      margin-right: auto;
-      /*transform: translate(60px,0);*/
+#circle { /* ID of the circle.*/
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: blue;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-animation: hue 15s infinite linear;
+  margin-top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  /*transform: translate(60px,0);*/
 }
 
 h1 {
-    font-family: cursive, sans-serif, monospace;
-    color: white;
-    font-size: 50px;  
-    text-align: center;    
+  font-family: cursive, sans-serif, monospace;
+  color: white;
+  font-size: 50px;  
+  text-align: center;    
 }
 
 h2 {
@@ -25,12 +25,57 @@ h2 {
   text-align: center;
 }
 
-@-webkit-keyframes hue {
-    from {
-      -webkit-filter: hue-rotate(0deg);
-    }
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: gray;
+  font-size: 25px;
+  margin-left: 32px;
+}
 
-    to {
-      -webkit-filter: hue-rotate(360deg);
-    }
+h4 {
+  font-family: cursive, sans-serif, monospace;
+  color: white;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  line-height: 15px;
+}
+
+h5 {
+  font-family: cursive, sans-serif, monospace;
+  color: gray;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.button1 {
+  font-family: cursive, sans-serif, monospace;
+  background-color: black; 
+  color: limegreen;
+  border: none;
+}
+
+.button2 {
+  font-family: cursive, sans-serif, monospace;
+  background-color: black; 
+  color: red;
+  border: none;
+}
+
+.button3 {
+  font-family: cursive, sans-serif, monospace;
+  background-color: black; 
+  color: yellow;
+  border: none;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
 }
